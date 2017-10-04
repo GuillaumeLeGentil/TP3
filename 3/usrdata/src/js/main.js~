@@ -1,0 +1,22 @@
+// main.js est chargé automatiquement grâce à
+// l'attribut data-main dans la balise script de require.js
+require(['app', // app/app.js
+], function(App) {
+   	 // Callback executé une fois app.js chargé
+   	 //App.initialize();
+   	 //App.animate();
+    	//App.render();
+    	App.initialize();
+	App.animate();
+	App.render();
+});
+
+
+
+
+
+
+
+	
+		
+			

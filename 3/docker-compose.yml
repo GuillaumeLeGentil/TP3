@@ -1,0 +1,21 @@
+version: '2'
+
+
+services:
+  jee:
+    container_name: web-container
+    build: oraclelinux
+    volumes: 
+      - ./usrdata:/var/www/html/
+
+  debug:
+    container_name: debug-container
+    volumes: 
+      - ./usrdata:/debug
+    build: debug
+    environment:
+       DISPLAY: $DISPLAY
+    
+
+
+

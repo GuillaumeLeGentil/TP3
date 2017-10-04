@@ -1,0 +1,15 @@
+
+/* 
+    Created on : 1 févr. 2017, 21:48:19
+    Author     : Guillaume
+*/
+
+.cScore {
+        position: absolute;
+        top: 1em;
+        width: 100%;
+        color: black;
+        z-index: 10;
+        display: block;
+        text-align: center;
+}
